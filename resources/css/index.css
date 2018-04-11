@@ -1,0 +1,151 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Company Header */
+
+.company {
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem 2rem;
+  top: 1rem;
+  position: relative;
+  font-size: 1rem;
+  z-index: 2;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav ul {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* banner */
+
+.main-banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30rem;
+  margin: 0;
+  z-index: 1;
+  position: relative;
+  bottom: 4.5rem;
+  display: flex;
+
+}
+
+.headline {
+  position: relative;
+  top: 13rem;
+  left: 9rem;
+  padding: 1.5rem 5rem;
+  background-color: #FFFFFF;
+  color: white;
+}
+
+.headline h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: black;
+}
+
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+
+  .headline {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .headline h4 {
+    font-size: .77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+}
+
+
+  /* icons */
+
+.icons-container,
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.icon {
+  width: 30rem;
+}
+
+.icon-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  padding: 2rem 0;
+}
+
+.icon-image img {
+  max-width: 20rem;
+}
+
+.description {
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  color: black;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
