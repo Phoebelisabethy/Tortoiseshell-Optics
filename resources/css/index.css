@@ -113,7 +113,7 @@ li {
 .business-info {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin: 5rem 0rem;
 }
 
 .icon {
@@ -146,6 +146,30 @@ li {
 .info .title {
   display: block;
   padding: 1rem 2rem;
-  background-color: black;
+  background-color: cadetblue;
   color: white;
+  margin: 2rem 0rem;
+}
+
+  /* icons */
+
+footer {
+  background-color: azure;
+  color: black;
+  padding: 4rem 8rem;
+  top: 1rem;
+  position: relative;
+  font-size: 1rem;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+}
+
+footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  margin: 0;
+
 }
